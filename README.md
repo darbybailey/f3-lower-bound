@@ -133,10 +133,14 @@ Verify with: `sha256sum f3_lower_bound.py z_state.json DEVNOTES.md`
 
 ## References
 
-1. Wróblewski, J. (1984). A nonaveraging set of integers with a large sum of reciprocals. *Mathematics of Computation*, 43(167), 261–262.
-2. Bloom, T., & Sisask, O. (2020). Breaking the logarithmic barrier in Roth's theorem on arithmetic progressions. arXiv:2007.03528.
-3. Walker, A. (2022, rev. 2025). Integer sets of large harmonic sum which avoid long arithmetic progressions. arXiv:2203.06045v2.
-4. Higham, N. J. (2002). *Accuracy and Stability of Numerical Algorithms* (2nd ed.). SIAM.
+1.	Wróblewski, J. (1984). A nonaveraging set of integers with a large sum of reciprocals. Mathematics of Computation, 43(167), 261–262. https://doi.org/10.2307/2007580 
+2.	Bloom, T., & Sisask, O. (2020). Breaking the logarithmic barrier in Roth's theorem on arithmetic progressions. arXiv:2007.03528. https://arxiv.org/abs/2007.03528 
+3.	Kelley, Z., & Meka, R. (2023). Strong bounds for 3-progressions. FOCS 2023 Best Paper. arXiv:2302.05537. https://arxiv.org/abs/2302.05537 
+4.	Bloom, T. F., & Sisask, O. (2023). The Kelley–Meka bounds for sets free of three-term arithmetic progressions. Essential Number Theory, 2(1), 15–44. https://doi.org/10.2140/ent.2023.2.15 (arXiv:2302.07211) 
+5.	Raghavan, R. (2026). Improved bounds for 3-progressions. arXiv:2603.27045. https://arxiv.org/abs/2603.27045 
+6.	Walker, A. (2022, rev. 2025). Integer sets of large harmonic sum which avoid long arithmetic progressions. arXiv:2203.06045. https://arxiv.org/abs/2203.06045 
+7.	Behrend, F. A. (1946). On sets of integers which contain no three terms in arithmetical progression. Proceedings of the National Academy of Sciences, 32(12), 331–332. https://doi.org/10.1073/pnas.32.12.331 
+8.	Higham, N. J. (2002). Accuracy and Stability of Numerical Algorithms (2nd ed.). SIAM. https://doi.org/10.1137/1.9780898718027
 
 ---
 
