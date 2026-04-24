@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+message: "If you use this software or results, please cite the paper below."
+type: software
+authors:
+  - family-names: "McDonough"
+    given-names: "Darby Bailey"
+    orcid: "https://orcid.org/0000-0003-4072-6191"
+    affiliation: "Pip Projects, Inc. / Digital Sidewalk Lab"
+title: "An Improved Computational Lower Bound for f(3) via Wróblewski's Recursive Pairing of Behrend Sphere Blocks"
+version: "1.1"
+date-released: "2026-04-24"
+url: "https://github.com/darbybailey/f3-lower-bound"
+repository-code: "https://github.com/darbybailey/f3-lower-bound"
+doi: "10.5281/zenodo.19722202"
+license: MIT
+abstract: >
+  Computational implementation establishing f(3) >= 3.0084928720,
+  improving the best published lower bound due to Wróblewski (1984)
+  by extending his recursive pairing of Behrend sphere blocks from
+  Z11 through Z13. The implementation uses a Python driver with an
+  embedded C kernel compiled at runtime, using unsigned __int128
+  arithmetic and strtod() to handle overflow hazards at Z12 and beyond.
+  Includes a floating-point error certificate confirming the margin
+  exceeds the total IEEE 754 error bound by a factor exceeding 10^15.
+keywords:
+  - "arithmetic progressions"
+  - "harmonic sums"
+  - "computational number theory"
+  - "Wróblewski construction"
+  - "Behrend sphere blocks"
+  - "3-AP-free sets"
+  - "certified computation"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "McDonough"
+      given-names: "Darby Bailey"
+      orcid: "https://orcid.org/0000-0003-4072-6191"
+  title: "An Improved Computational Lower Bound for f(3) via Wróblewski's Recursive Pairing of Behrend Sphere Blocks"
+  year: 2026
+  doi: "10.5281/zenodo.19722202"
+  url: "https://doi.org/10.5281/zenodo.19722202"
+references:
+  - type: article
+    authors:
+      - family-names: "Wróblewski"
+        given-names: "J."
+    title: "A nonaveraging set of integers with a large sum of reciprocals"
+    journal: "Mathematics of Computation"
+    volume: 43
+    issue: 167
+    pages: "261-262"
+    year: 1984
+    doi: "10.2307/2007580"
