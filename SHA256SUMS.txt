@@ -1,3 +1,14 @@
+# v1.0 computational spine already in this repository (unchanged)
 392e31b4e0ccecc29969f33585519341ffb59c64fe8ac964dc9814eec66a858b  f3_lower_bound.py
 cb371461c83d2a07d6eff58d778c27846dda5f5bda6ac1d8060b80bb08d97da4  z_state.json
 4dd451d1138fc3ee45e35b5355a4f15fb0162a5723c56097b052dd1c8a396828  DEVNOTES.md
+
+# Zenodo Version 2.0 files (10.5281/zenodo.24486265), published 2026-08-29
+# Concept DOI: 10.5281/zenodo.19722201
+# Previous version DOI: 10.5281/zenodo.19722202
+120aa0b44fb90065364ec5c533265b1ad9c19c71af8f973396c788726f1d1a86  f3_lower_frontier_Z32_2026-08-29.zip
+7b7a463b378ac00454896119898fb46be7c574627d7989af3b905a451eacf106  Improved_Computational_Lower_Bound_f3_v2.pdf
+697e072892cc638b9ee5494da399bed85724db7faec6c69475ea39165372091b  Improved_Computational_Lower_Bound_f3_v2.md
+0dd33c059817467670fc73fbabd9d1ddff31f1748315cce20bbb8ffc31eab474  f3_v2_CHANGELOG.md
+9da5edee869a299800a591db63f955256af69142864a02f273ae2b92065eea52  F3_CERTIFICATE.txt
+2692a82977e6430d050e2e4785d85a8b9ce716b6d942ba446bb492b1a181536c  f3_certificate.json

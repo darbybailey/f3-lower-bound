@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this software or results, please cite the paper below."
+message: "If you use this software or results, please cite the Version 2.0 paper below."
 type: software
 authors:
   - family-names: "McDonough"
@@ -7,20 +7,34 @@ authors:
     orcid: "https://orcid.org/0000-0003-4072-6191"
     affiliation: "Pip Projects, Inc. / Digital Sidewalk Lab"
 title: "An Improved Computational Lower Bound for f(3) via Wróblewski's Recursive Pairing of Behrend Sphere Blocks"
-version: "1.1"
-date-released: "2026-04-24"
+version: "2.0"
+date-released: "2026-08-29"
 url: "https://github.com/darbybailey/f3-lower-bound"
 repository-code: "https://github.com/darbybailey/f3-lower-bound"
-doi: "10.5281/zenodo.19722202"
+doi: "10.5281/zenodo.24486265"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24486265"
+    description: "Version 2.0 DOI (published 2026-08-29)"
+  - type: doi
+    value: "10.5281/zenodo.19722201"
+    description: "Concept DOI (resolves to the latest version)"
+  - type: doi
+    value: "10.5281/zenodo.19722202"
+    description: "Version 1.0 DOI (published 2026-04-24; f(3) >= 3.0084928720 at Z11)"
 license: MIT
 abstract: >
-  Computational implementation establishing f(3) >= 3.0084928720,
-  improving the best published lower bound due to Wróblewski (1984)
-  by extending his recursive pairing of Behrend sphere blocks from
-  Z11 through Z13. The implementation uses a Python driver with an
-  embedded C kernel compiled at runtime, using unsigned __int128
-  arithmetic and strtod() to handle overflow hazards at Z12 and beyond.
-  Includes a floating-point error certificate confirming the margin
+  Version 2.0 retains the April 2026 computational theorem
+  f(3) >= 3.0084928720 at Z11 (DOI 10.5281/zenodo.19722202) and records two
+  subsequent extensions of the same Wróblewski pairing of Behrend sphere
+  blocks. An interval-certified adaptive chain Z14–Z23 yields
+  f(3) >= 3.008500752707. Eight exact-rational even-p Jensen steps Z25–Z32
+  then produce the 18-place downward truncation
+  f(3) >= 3.008500858304852623, conditional on the Z24 outward-rounded
+  moment-certificate integers. The v1 implementation uses a Python driver
+  with an embedded C kernel compiled at runtime, using unsigned __int128
+  arithmetic and strtod() to handle overflow hazards at Z12 and beyond, and
+  includes a floating-point error certificate confirming the Z11 margin
   exceeds the total IEEE 754 error bound by a factor exceeding 10^15.
 keywords:
   - "arithmetic progressions"
@@ -30,17 +44,34 @@ keywords:
   - "Behrend sphere blocks"
   - "3-AP-free sets"
   - "certified computation"
+  - "Jensen inequality"
+  - "exact rational certificate"
 preferred-citation:
   type: article
   authors:
     - family-names: "McDonough"
       given-names: "Darby Bailey"
       orcid: "https://orcid.org/0000-0003-4072-6191"
+      affiliation: "Pip Projects, Inc. / Digital Sidewalk Lab"
   title: "An Improved Computational Lower Bound for f(3) via Wróblewski's Recursive Pairing of Behrend Sphere Blocks"
   year: 2026
-  doi: "10.5281/zenodo.19722202"
-  url: "https://doi.org/10.5281/zenodo.19722202"
+  month: 8
+  doi: "10.5281/zenodo.24486265"
+  url: "https://doi.org/10.5281/zenodo.24486265"
+  version: "2.0"
 references:
+  - type: article
+    authors:
+      - family-names: "McDonough"
+        given-names: "Darby Bailey"
+        orcid: "https://orcid.org/0000-0003-4072-6191"
+    title: "An Improved Computational Lower Bound for f(3) via Wróblewski's Recursive Pairing of Behrend Sphere Blocks"
+    year: 2026
+    month: 4
+    doi: "10.5281/zenodo.19722202"
+    url: "https://doi.org/10.5281/zenodo.19722202"
+    version: "1.0"
+    notes: "Version 1.0 computational theorem: f(3) >= 3.0084928720 at Z11. Concept DOI 10.5281/zenodo.19722201."
   - type: article
     authors:
       - family-names: "Wróblewski"

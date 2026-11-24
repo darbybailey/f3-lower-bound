@@ -1,0 +1,19 @@
+{
+  "date": "2026-08-29",
+  "interpretation": "highest bound = lower bound for f(3)",
+  "prior_machine_certified_through_Z23": "3.008500752707",
+  "Z24_machine_interval_lower_15dp": "3.008500791468429",
+  "Z24_block": [64,15,2512],
+  "extensions": [
+    [25,80,15,3910],
+    [26,98,15,5878],
+    [27,122,15,9151],
+    [28,108,16,7633],
+    [29,132,16,11464],
+    [30,164,16,17779],
+    [31,144,17,14536],
+    [32,172,17,20803]
+  ],
+  "new_certified_lower_bound_truncated_18dp": "3.008500858304852623",
+  "claim_boundary": "Finite explicit construction bound conditional only on the already-used generalized pairing lemma and block AP-freeness lemma; schedule search is not claimed globally optimal."
+}
